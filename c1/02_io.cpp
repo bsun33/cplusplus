@@ -1,4 +1,5 @@
-#include <iostream>    
+#include <iostream>
+
 int main() 
 {
 // same as (std::cout << "Enter two numbers:") << std::endl;
@@ -32,6 +33,9 @@ and flushing the buffer associated with that device.
 
 The prefix std:: incidcates that the names cout and endl are defined inside the namespace named std.
 All the names defined by the standard library are in the std namespace.
+
+Namespaces allow us to avoid inadvertent collisions between the names we define and 
+uses of those same names inside a library.
 
 :: is scope operator
 + operator

@@ -20,4 +20,6 @@ The input operator >> returns its left operand, which is std::cin here.
 When we use an istream as a condition, the effect is to test the state of the stream.
 An istream becomes invalid when we hit end-of-file or encounter an invalid input, 
 such as reading a value that is not an integer.
+
+end-of-file on Mac is  CTRL+D and it works only in a new line, after pressing ENTER.
 */

@@ -1,0 +1,13 @@
+#include <iostream>
+#include "Sales_item.h"
+  
+-Headers from the standard library are enclosed in angle brackets (< >). 
+ Those that are not part of the library are enclosed in double quotes (" ").
+
+-File Redirection
+$ addItems < infile > outfile
+our addition program has been compiled into an executable file addItems(on UNIX systems), 
+this command will read transactions from a file named infile and write its output to 
+a file named outfile in the current directory.
+
+- We call a function using the call operator (the () operator)
